@@ -1,0 +1,39 @@
+html,body,header,main,p,a,ul,nav,button,img,li,ol,div,h1,h2,h3,h4{ margin: 0; padding: 0; list-style: none; }
+
+*{box-sizing: border-box;}
+img{ max-width: 100%; }
+
+html{}
+body{width: 100%;}
+
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.5em 1em;
+  font-size: 0.9em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
